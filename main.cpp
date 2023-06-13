@@ -7,11 +7,11 @@ int main()
 {
 	int years;
 	int month;
-	setlocale(LC_ALL, "rus");
-	std::cout << "¬ведите свой возраст(годы)" << std::endl;
+	std::cout << "Enter age in years: ";
 	std::cin >> years;
+	std::cout << std::endl;
 	month = Translate(years);
-	std::cout << "¬аш возраст в мес€цах: " << month << std::endl;
+	std::cout << "Your age in month: " << month << std::endl;
 	system("pause");
 	return 0;
 }
